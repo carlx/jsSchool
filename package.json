@@ -1,0 +1,35 @@
+{
+  "name": "jsschool",
+  "version": "1.0.0",
+  "description": "Js examples to lern",
+  "main": "index.js",
+  "scripts": {
+    "test": "clear && ./node_modules/mocha/bin/mocha . --require babel-core/register",
+    "test:watch": "clear && ./node_modules/mocha/bin/mocha ./tests/. -watch --require babel-core/register"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlx/jsSchool.git"
+  },
+  "author": "carlx",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlx/jsSchool/issues"
+  },
+  "homepage": "https://github.com/carlx/jsSchool#readme",
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-cli": "^6.16.0",
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "babel-register": "^6.16.3",
+    "chai": "^3.5.0",
+    "eslint": "^3.7.1",
+    "mocha": "^3.1.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
+  }
+}
