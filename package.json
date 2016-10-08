@@ -4,7 +4,7 @@
   "description": "Js examples to lern",
   "main": "index.js",
   "scripts": {
-    "test": "clear && ./node_modules/mocha/bin/mocha . --require babel-core/register",
+    "test": "clear && ./node_modules/mocha/bin/mocha ./tests/. --require babel-core/register",
     "test:watch": "clear && ./node_modules/mocha/bin/mocha ./tests/. -watch --require babel-core/register"
   },
   "repository": {
@@ -25,7 +25,8 @@
     "babel-register": "^6.16.3",
     "chai": "^3.5.0",
     "eslint": "^3.7.1",
-    "mocha": "^3.1.0"
+    "mocha": "^3.1.0",
+    "rx": "^4.1.0"
   },
   "babel": {
     "presets": [
