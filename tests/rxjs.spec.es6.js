@@ -68,7 +68,7 @@ describe('test RxJS', () => {
       'use strict';
       let obs = Rx.Observable.zip(
           Rx.Observable.range(1,5),
-          Rx.Observable.interval(1000),
+          Rx.Observable.interval(23),
           (range) => range
       );
       obs.subscribe(
